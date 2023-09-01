@@ -5,7 +5,12 @@ import { Form } from './styles'
 export function ClaimUserNameForm() {
   return (
     <Form as="form">
-      <TextInput size="sm" prefix="ignite.com/" placeholder="seu-usuario" />
+      <TextInput
+        size="sm"
+        prefix="ignite.com/"
+        placeholder="seu-usuario"
+        crossOrigin={''}
+      />
       <Button size="sm" type="submit">
         Reservar
         <ArrowRight />
