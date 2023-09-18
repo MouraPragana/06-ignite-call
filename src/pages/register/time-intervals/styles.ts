@@ -34,7 +34,7 @@ export const IntervalInputs = styled('div', {
   alignItems: 'center',
   gap: '$2',
 
-  'input::webkit-calendar-picker-indicator': {
+  'input::-webkit-calendar-picker-indicator': {
     filter: 'invert(100%) brightness(40%) saturate(0%)',
   },
 })
